@@ -1,0 +1,9 @@
+images,target_hipp,target_baga,target_extra,atlas
+LISA_0004_ciso.nii.gz,LISA_0004_HF_hipp.nii.gz,LISA_0004_HF_baga.nii.gz,LISA_0004_vent.nii.gz,atlas_mask_0004.nii.gz
+LISA_0031_ciso.nii.gz,LISA_0031_HF_hipp.nii.gz,LISA_0031_HF_baga.nii.gz,LISA_0031_vent.nii.gz,atlas_mask_0031.nii.gz
+LISA_0023_ciso.nii.gz,LISA_0023_HF_hipp.nii.gz,LISA_0023_HF_baga.nii.gz,LISA_0023_vent.nii.gz,atlas_mask_0023.nii.gz
+LISA_0032_ciso.nii.gz,LISA_0032_HF_hipp.nii.gz,LISA_0032_HF_baga.nii.gz,LISA_0032_vent.nii.gz,atlas_mask_0032.nii.gz
+LISA_0019_ciso.nii.gz,LISA_0019_HF_hipp.nii.gz,LISA_0019_HF_baga.nii.gz,LISA_0019_vent.nii.gz,atlas_mask_0019.nii.gz
+LISA_0029_ciso.nii.gz,LISA_0029_HF_hipp.nii.gz,LISA_0029_HF_baga.nii.gz,LISA_0029_vent.nii.gz,atlas_mask_0029.nii.gz
+LISA_0015_ciso.nii.gz,LISA_0015_HF_hipp.nii.gz,LISA_0015_HF_baga.nii.gz,LISA_0015_vent.nii.gz,atlas_mask_0015.nii.gz
+LISA_0055_ciso.nii.gz,LISA_0055_HF_hipp.nii.gz,LISA_0055_HF_baga.nii.gz,LISA_0055_vent.nii.gz,atlas_mask_0055.nii.gz

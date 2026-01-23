@@ -1,0 +1,89 @@
+0:
+  random_seed: 42
+  batch_size: 3
+  patch_size: [128, 128, 128]
+  model_type: "vnet"
+  class_weights: False
+  interpolate: True
+  num_epochs: 300
+1:
+  random_seed: 42
+  batch_size: 8
+  patch_size: [128, 128, 128]
+  model_type: "medsam2"
+  class_weights: False
+  interpolate: True
+  num_epochs: 1000
+2:
+  random_seed: 42
+  batch_size: 2
+  patch_size: [128, 128, 128]
+  model_type: "medsam2_3d"
+  class_weights: False
+  interpolate: True
+  num_epochs: 800
+3:
+  random_seed: 42
+  batch_size: 1
+  patch_size: [128, 128, 128]
+  model_type: "medsam2_3d_atlas"
+  class_weights: False
+  interpolate: True
+  num_epochs: 800
+4:
+  random_seed: 42
+  batch_size: 3
+  patch_size: [128, 128, 128]
+  model_type: "vnet"
+  class_weights: [0.04,0.15,0.15,0.03,0.03,0.15,0.15,0.15,0.15]
+  interpolate: True
+  num_epochs: False
+5:
+  random_seed: 42
+  batch_size: 8
+  patch_size: [128, 128, 128]
+  model_type: "medsam2"
+  class_weights: [0.04,0.15,0.15,0.03,0.03,0.15,0.15,0.15,0.15]
+  interpolate: True
+  num_epochs: False
+6:
+  random_seed: 42
+  batch_size: 2
+  patch_size: [128, 128, 128]
+  model_type: "medsam2_3d"
+  class_weights: [0.04,0.15,0.15,0.03,0.03,0.15,0.15,0.15,0.15]
+  interpolate: True
+  num_epochs: False
+7:
+  random_seed: 42
+  batch_size: 2
+  patch_size: [128, 128, 128]
+  model_type: "medsam2_3d_atlas"
+  class_weights: [0.04,0.15,0.15,0.03,0.03,0.15,0.15,0.15,0.15]
+  interpolate: True
+  num_epochs: False
+
+10:
+  random_seed: 42
+  batch_size: 1
+  patch_size: [256, 256, 128]
+  model_type: "medsam2_3d"
+  class_weights: False
+  interpolate: True
+  num_epochs: 500
+11:
+  random_seed: 42
+  batch_size: 1
+  patch_size: [256, 256, 128]
+  model_type: "medsam2_3d_atlas"
+  class_weights: False
+  interpolate: True
+  num_epochs: 500
+12:
+  random_seed: 42
+  batch_size: 2
+  patch_size: [128, 128, 128]
+  model_type: "vnet_atlas"
+  class_weights: False
+  interpolate: True
+  num_epochs: 350
