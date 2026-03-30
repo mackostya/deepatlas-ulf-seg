@@ -1,9 +1,13 @@
 # Atlas-Augmented Semantic Segmentation for Robust Ultra-Low-Field Pediatric Brain Imaging
+<p align="center">
+  <img src="imgs/methodology.png" alt="Image1" width = 800/>
+</p>
 
 This repository contains the official PyTorch implementation of our approach for **Task 2a (bilateral hippocampus segmentation)** and **Task 2b (bilateral basal ganglia segmentation)** of the [LISA 2025 Challenge](https://www.synapse.org/Synapse:syn65670170/wiki/631438) on ultra-low-field pediatric brain MRI.
 
 ---
 
+---
 ## Abstract
 
 Low-field MRI offers a portable, cost-effective alternative to conventional high-field scanners but suffers from reduced signal-to-noise ratio and spatial inhomogeneity, which compromise the accuracy and consistency of automated brain structure segmentation. In this work, we introduce atlas-augmented deep learning models that integrate probabilistic anatomical priors to enhance the delineation of pediatric hippocampus and basal ganglia in ultra-low-field MRI (0.064 T).  
